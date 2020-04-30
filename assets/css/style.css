@@ -78,12 +78,15 @@ span {
 	left: 1px;
 }
 #text-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 	box-sizing: border-box;
-	padding: 1rem 1rem 1rem 1.2rem;
+	padding: 1rem 1.2rem 1rem 1rem;
 	border: 1px solid rgba(0, 0, 0, 0);
 	background: rgb(240, 239, 239);
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 #text {
 	font-size: 1.1rem;
@@ -91,9 +94,9 @@ span {
 	background: rgb(240, 239, 239);
 }
 #text:focus {
-	background: rgb(214, 214, 214);
-	border: 1px solid #2980b9;
+	width: 90%;
 	outline: none;
+	border-right: 1px solid rgba(78, 67, 67, 0.3);
 }
 .completed {
 	color: gray;
