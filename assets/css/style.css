@@ -5,7 +5,6 @@
 }
 
 /* Global elements */
-
 * {
 	padding: 0;
 	margin: 0;
@@ -22,16 +21,13 @@ body {
 		#4da0b0
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 /* container */
 #container {
 	width: 20rem;
 	box-shadow: 4px 4px 4px;
 	background: var(--com-bg-color);
-	margin: 100px auto;
-	/* padding: 1rem; */
+	margin: 100px auto; /* padding: 1rem; */
 }
-
 /* h1 */
 h1 {
 	background: var(--h1-bg-color);
@@ -42,7 +38,6 @@ h1 {
 	font-size: 24px;
 	font-weight: 400;
 }
-
 li {
 	list-style: none;
 	background: white;
@@ -52,16 +47,13 @@ li {
 	font-size: 1.2rem;
 	font-weight: 600;
 }
-
 li:nth-child(2n) {
 	background: var(--com-bg-color);
 }
-
 li:hover span {
 	width: 2.5rem;
 	opacity: 1;
 }
-
 span {
 	color: wheat;
 	background: rgb(202, 21, 21);
@@ -73,26 +65,19 @@ span {
 	transition: 0.2s linear;
 	opacity: 0;
 }
-
 .fa-plus-square {
 	float: right;
 }
-
 #text {
-	padding: 1rem 1rem 1rem 1.2rem;
 	font-size: 1.1rem;
-	width: 100%;
-	box-sizing: border-box;
 	border: 1px solid rgba(0, 0, 0, 0);
 	background: rgb(240, 239, 239);
 }
-
 #text:focus {
 	background: rgb(214, 214, 214);
 	border: 1px solid #2980b9;
 	outline: none;
 }
-
 .completed {
 	color: gray;
 	text-decoration: line-through;
