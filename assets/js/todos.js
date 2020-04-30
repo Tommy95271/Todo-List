@@ -20,6 +20,9 @@ $(function() {
 		// console.log(e.target);
 		var text = $('#text').val();
 		console.log(text);
+		if (text === '') {
+			return false;
+		}
 		$('#lists').append(`<li><span><i class="fas fa-trash-alt"></i></span>${text}</li>`);
 	});
 	$('.fa-plus-square').on('click', function() {
