@@ -26,6 +26,6 @@ $(function() {
 		$('#lists').append(`<li><span><i class="fas fa-trash-alt"></i></span>${text}</li>`);
 	});
 	$('.fa-plus-square').on('click', function() {
-		$('#text').fadeToggle();
+		$('#text-box').fadeToggle();
 	});
 });
