@@ -15,10 +15,12 @@ $(function() {
 	// 		$('#lists').append(`<li><span><i class="fas fa-trash-alt"></i></span> ${todoText}</li>`);
 	// 	}
 	// });
+
 	$('.fa-plus').on('click', function(e) {
 		// console.log(e.target);
 		var text = $('#text').val();
 		console.log(text);
+		$('#lists').append(`<li><span><i class="fas fa-trash-alt"></i></span>${text}</li>`);
 	});
 	$('.fa-plus-square').on('click', function() {
 		$('#text').fadeToggle();
